@@ -13340,7 +13340,9 @@ var toolmenu=[{"id":"0","nameen":"Home","namecn":"","namecnhk":"","connect":"con
     {"id":"3","nameen":"Question","namecn":"Red ","namecnhk":"Red ","connect":"content5"},
     {"id":"4","nameen":"Roadmap","namecn":"","namecnhk":"","connect":"content8"},
     // {"id":"5","nameen":"Team","namecn":"","namecnhk":"","connect":"content9"},
-    {"id":"6","nameen":"Contact","namecn":"","namecnhk":"","connect":"content10"}    ];
+    {"id":"6","nameen":"Contact","namecn":"","namecnhk":"","connect":"content10"},
+	// {"id":"7","nameen":"Whitepaper","namecn":"","namecnhk":"","connect":"content10"}
+		];
 
 var homepage=[{"id":"0","name":"title","contenten":"MonkeyKing Currency","contentcn":"Red， ","contentcnhk":"Red， "},
     {"id":"1","name":"text1","contenten":"Super repo: 12% transaction tax will repurchase every 3-4 days! Automatic repurchase every time [60%]! And the token will be destroyed after the buyback, which is also high deflation! Repurchase will be completed in an instant, instant pull up more than 10 times!! The repo mechanism writes contracts that cannot be tampered with",
@@ -13357,13 +13359,13 @@ var homepage=[{"id":"0","name":"title","contenten":"MonkeyKing Currency","conten
     {"id":"10","name":"goal","contenten":"Total Tokens Issued: ","contentcn":"：","contentcnhk":"："},
     {"id":"11","name":"text4","contenten":"<!-- Current Token Price: --> ","contentcn":"","contentcnhk":""},
     {"id":"12","name":"text5","contenten":"We are not accepting any contributions from citizens of Bangladesh, Bolivia, China (excluding Macau, Hong Kong, and Taiwan), Ecuador, Iceland, Kyrgyzstan, United States, Vietnam, or any other countries that currently ban or limit token sale activities.","contentcn":"， KYC  RED Token","contentcnhk":"， KYC  RED Token"},
-    {"id":"13","name":"button1","contenten":"BUY ON PANCAKE SWAP","contentcn":"","contentcnhk":""},
+    {"id":"13","name":"button1","contenten":"JOIN PRESALE IN DXSALE","contentcn":"","contentcnhk":""},
     {"id":"14","name":"button2","contenten":"BUY ON MDEX SWAP","contentcn":"","contentcnhk":""},
     {"id":"15","name":"text5","contenten":"Token Sales Restrictions","contentcn":" Token","contentcnhk":" Token"},
     {"id":"16","name":"text6","contenten":"Remaining Tokens for Sale: ","contentcn":" Token","contentcnhk":" Token"},
-    {"id":"17","name":"text6","contenten":"No presales","contentcn":" Token","contentcnhk":" Token"},
+    {"id":"17","name":"text6","contenten":"few quantity presales","contentcn":" Token","contentcnhk":" Token"},
     {"id":"18","name":"text6","contenten":"fair launch!","contentcn":" Token","contentcnhk":" Token"},
-    {"id":"19","name":"text6","contenten":"Monkey King - a blockchain revolution no presales","contentcn":" Token","contentcnhk":" Token"},
+    {"id":"19","name":"text6","contenten":"Monkey King - a blockchain revolution few quantity presales","contentcn":" Token","contentcnhk":" Token"},
     {"id":"20","name":"text6","contenten":"Total Tokens Issued: ","contentcn":" Token","contentcnhk":" Token"},
     {"id":"21","name":"text6","contenten":"100,000,000,000 MonkeyKing","contentcn":" Token","contentcnhk":" Token"}]
 
@@ -13522,7 +13524,7 @@ var product3=[{"id":"0","name":"title","contenten":"Red’s Mission","contentcn"
     {"id":"2","name":"button","contenten":"Join Our Community","contentcn":" RED ","contentcnhk":" RED "}]
 
 var roadmap=[{"id":"0","name":"title","contenten":"Roadmap","contentcn":"","contentcnhk":""},
-    {"id":"1","name":"button","contenten":"Buy MonkeyKing","contentcn":"","contentcnhk":""},
+    {"id":"1","name":"button","contenten":"DownLoad WhitePaper","contentcn":"","contentcnhk":""},
 
     {"id":"2","name":"button","contenten":"MonkeyKing Product Start","contentcn":"<div style='height:10px'/>","contentcnhk":"<div style='height:10px'/>"},
     {"id":"3","name":"button","contenten":"2021.7.30","contentcn":"2018/1/5-2/5","contentcnhk":"2018/1/5-2/5"},
@@ -13860,7 +13862,7 @@ var init={
                 duration: 500,
                 easing: "swing"
             }); */
-			window.location.href='https://pancakeswap.finance/swap#/swap?outputCurrency=0x0100e08f5bc30e83b05c1c543f63961e0a376bb2'
+			window.location.href='https://dxsale.app/app/v3/defipresale?saleID=774&chain=BSC'
         });
         $("#homePage_button2").bind("click",function(){
             window.location.href='https://bsc.mdex.com/#/swap??outputCurrency=0x0100e08f5bc30e83b05c1c543f63961e0a376bb2';
@@ -14164,7 +14166,7 @@ var init={
         div.append(div1).append(div2).append(div3).append(div4).append(div5).append(div6).append(div7).append(div8).append(button);
         $("#content8").append(div);
         $("#roadmap_button").bind("click",function(){
-            window.location.href=downloadAddress;
+            window.location.href="./auditreport/MIKE Audit Report.pdf";
         });
     },
     team1:function(){
